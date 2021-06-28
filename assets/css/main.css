@@ -1324,7 +1324,7 @@
 		/* Banner */
 
 			#banner {
-				background: url(../imgages/pano.jpg) no-repeat center fixed; 
+				background: url(../imgages/lincolnsquaresign.jpg) no-repeat center fixed; 
 				border-top: solid 1px #E1F3F8;
 				box-shadow: inset 0px 1px 0px 0px #d9d9d9;
 				padding: 35px 0 35px 0;
@@ -1727,7 +1727,7 @@
 				width: 100%;
 				z-index: 10001;
 				color: #fff;
-				background: url("images/skyline-crop.jpg");
+				background: url("images/lincolnsquaresign.jpg");
 				box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
 			}
 
@@ -1799,7 +1799,7 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: url("images/skyline-crop.jpg");
+				background: url("images/lincolnsquaresign.jpg");
 				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
 				}
 
