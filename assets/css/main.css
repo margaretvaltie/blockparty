@@ -1260,7 +1260,6 @@
 				background: #ffffff;
 				border-bottom: solid 1px #E1F3F8;
 				box-shadow: inset 0px -1px 0px 0px #41B6E6;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			.subpage #header-wrapper {
@@ -1271,7 +1270,6 @@
 				background: #ffffff ;
 				border-bottom: solid 1px #E1F3F8;
 				padding: 45px 0 45px 0;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#content-wrapper {
@@ -1550,14 +1548,12 @@
 
 			#header-wrapper {
 				background: #3B4346 url("images/bg01.jpg") top center;
-				box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+				box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;		
 			}
 
 			#features-wrapper {
 				background: #353D40 url("images/bg02.jpg");
 				padding: 15px 15px 30px 15px;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#content-wrapper {
@@ -1733,7 +1729,6 @@
 				color: #fff;
 				background: url("images/skyline-crop.jpg");
 				box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 				#titleBar .title {
@@ -1806,8 +1801,7 @@
 				z-index: 10002;
 				background: url("images/skyline-crop.jpg");
 				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
-				text-shadow: -1px -1px 1px black;
-			}
+				}
 
 				#navPanel .link {
 					display: block;
