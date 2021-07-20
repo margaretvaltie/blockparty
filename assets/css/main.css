@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=f&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -7,6 +8,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-variant-ligatures: discretionary-ligatures;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1065,6 +1067,8 @@
 		font-family: 'Lora', sans-serif;
 		line-height: 1.85em;
 		font-weight: 300;
+		/* Enable discretionary ligatures */
+		font-variant-ligatures: discretionary-ligatures;
 	}
 
 	input, textarea, select {
@@ -1260,7 +1264,6 @@
 				background: #ffffff;
 				border-bottom: solid 1px #E1F3F8;
 				box-shadow: inset 0px -1px 0px 0px #41B6E6;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			.subpage #header-wrapper {
@@ -1271,7 +1274,6 @@
 				background: #ffffff ;
 				border-bottom: solid 1px #E1F3F8;
 				padding: 45px 0 45px 0;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#content-wrapper {
@@ -1283,6 +1285,8 @@
 			#footer-wrapper {
 				padding: 45px 0 45px 0;
 				text-shadow: 1px 1px 1px white;
+				/* Enable discretionary ligatures */
+				font-variant-ligatures: discretionary-ligatures;
 			}
 
 		/* Header */
@@ -1398,6 +1402,7 @@
 			#footer {
 				color: #41B6E6;
 				text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+				font-variant-ligatures: discretionary-ligatures;
 			}
 
 				#footer h2 {
@@ -1549,15 +1554,13 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				background: #3B4346 url("images/bg01.jpg") top center;
+				background: #D6D7D9 url("images/bg01.jpg") top center;
 				box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#features-wrapper {
-				background: #353D40 url("images/bg02.jpg");
+				background: #E4E2E0 url("images/bg02.jpg");
 				padding: 15px 15px 30px 15px;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
 
 			#content-wrapper {
@@ -1586,6 +1589,7 @@
 				text-align: center;
 				padding: 30px 30px 15px 30px;
 				margin-top: 44px;
+				background-color: 41B6E6;
 			}
 
 				#banner .bordered-feature-image {
@@ -1731,7 +1735,7 @@
 				width: 100%;
 				z-index: 10001;
 				color: #fff;
-				background: url("images/skyline-crop.jpg");
+				background-color: 41B6E6;
 				box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
@@ -1772,7 +1776,7 @@
 						position: absolute;
 						width: 20px;
 						height: 30px;
-						background: url("images/mobileUI-site-nav-opener-bg.svg");
+						background-color: 41B6E6;
 						top: 15px;
 						left: 20px;
 						z-index: 1;
@@ -1804,9 +1808,8 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: url("images/skyline-crop.jpg");
+				background-color: 41B6E6;
 				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
-				text-shadow: -1px -1px 1px black;
 			}
 
 				#navPanel .link {
