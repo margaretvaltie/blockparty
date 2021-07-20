@@ -1547,17 +1547,17 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				background: #3B4346 url("images/bg01.jpg") top center;
-				box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;		
+				background: #FFFFFF top center;
+				box-shadow: inset 0px -1px 0px 0px #41B6E6, inset 0px -2px 0px 0px #E1F3F8;		
 			}
 
 			#features-wrapper {
-				background: #353D40 url("images/bg02.jpg");
+				background: #ffffff ;
 				padding: 15px 15px 30px 15px;
 			}
 
 			#content-wrapper {
-				background: #f7f7f7 url("images/bg04.png");
+				background: #FFFFFF ;
 				padding: 5px;
 			}
 
@@ -1578,7 +1578,7 @@
 
 			#banner {
 				position: relative;
-				color: #fff;
+				color: #fffff;
 				text-align: center;
 				padding: 30px 30px 15px 30px;
 				margin-top: 44px;
@@ -1620,7 +1620,7 @@
 				}
 
 				#features a {
-					color: #005B99;
+					color: #E4002B;
 				}
 
 				#features strong {
@@ -1649,7 +1649,7 @@
 			}
 
 			#content a {
-				color: #005B99;
+				color: #2C5491;
 			}
 
 			#content header {
@@ -1688,12 +1688,12 @@
 				box-shadow: inset 0px 1px 0px 0px #E1F3F8;
 				text-align: center;
 				padding: 20px 30px 20px 30px;
-				color: #000000;
+				color: #8d9ca3;
 				text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
 			}
 
 				#copyright a {
-					color: #000000;
+					color: #005B99s;
 				}
 
 		/* Off-Canvas Navigation */
@@ -1779,10 +1779,10 @@
 					}
 
 			#navPanel {
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
+				-moz-backface-visibility: visible;
+				-webkit-backface-visibility: visible;
+				-ms-backface-visibility: visible;
+				backface-visibility: visible;
 				-moz-transform: translateX(-275px);
 				-webkit-transform: translateX(-275px);
 				-ms-transform: translateX(-275px);
@@ -1799,7 +1799,7 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: url("images/lincolnsquaresign.jpg");
+				background-color:#ffffff ;
 				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
 				}
 
