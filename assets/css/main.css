@@ -1189,7 +1189,8 @@
 		font-size: 1.75em;
 		font-weight: 300;
 		padding: 15px 45px 15px 45px;
-		outline: 0;
+		outline-color: #E4002B;
+		outline: 1px;
 		border-radius: 10px;
 	}
 
@@ -1197,6 +1198,8 @@
 			color: #ffffff;
 			text-decoration: underline;
 			text-decoration-color: #981b1e;
+			outline: 1px;
+			outline-color: #E4002B;
 		}
 
 /* Content */
